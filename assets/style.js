@@ -1,4 +1,11 @@
 // Create variables wins, loss, ties
+let wins = 0;
+let loss = 0;
+let ties = 0;
+
+let userChoice = "";
+let computerChoice = "";
+
 // Prompt user to choose rock, paper, or scissors
 // Randomly choose r,p, or s for computer
 // If user choice equals computer choice then tie  +=1
