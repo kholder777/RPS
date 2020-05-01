@@ -2,15 +2,19 @@
 let wins = 0;
 let loss = 0;
 let ties = 0;
-
-let userChoice = "";
+let = "true"
+let userChoice = "True";
 let computerChoice = "";
 const rps = ["r", "p", "s"];
 
-for (var i = 0; i < 6; i++) {
-  userChoice = confirm("Would you like to play rock, paper, scissors");
+userChoice = confirm("Would you like to play rock, paper, scissors");
+if (userChoice) {
 
-  computerChoice = rps[Math.floor(Math.random() * 3)];
+} else(cancelGame);
+
+for (var i = 0; i < 6; i++) {
+
+    computerChoice = rps[Math.floor(Math.random() * 3)];
 }
 // Prompt user to choose rock, paper, or scissors
 // Randomly choose r,p, or s for computer
