@@ -5,7 +5,11 @@ let ties = 0;
 
 let userChoice = "";
 let computerChoice = "";
+const rps = ["r", "p", "s"];
 
+for (var i = 0; i < 6; i++) {
+  computerChoice = rps[Math.floor(Math.random() * 3)];
+}
 // Prompt user to choose rock, paper, or scissors
 // Randomly choose r,p, or s for computer
 // If user choice equals computer choice then tie  +=1
