@@ -6,6 +6,7 @@ let userRPSChoice;
 let userChoice = "True";
 let computerChoice = "";
 const rps = ["r", "p", "s"];
+let total = ["Wins: " + wins, "Losses: " + loss, "ties: " + ties];
 
 // - Create a button on the HTML page that invokes the playGame function
 // - Create a function named playGame function that will take in users input as an argument and runs the necessary functions below in the proper order (hint, the order they're listed in is NOT the proper order).
