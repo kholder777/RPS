@@ -8,6 +8,8 @@ let computerChoice = "";
 const rps = ["r", "p", "s"];
 
 for (var i = 0; i < 6; i++) {
+  userChoice = confirm("Would you like to play rock, paper, scissors");
+
   computerChoice = rps[Math.floor(Math.random() * 3)];
 }
 // Prompt user to choose rock, paper, or scissors
